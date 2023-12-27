@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="signup.js">
+</head>
+<body>
+    <div class="head">
+        <h1>Create Account</h1>
+        <div class="form">
+            <form action="">
+        <div class="name">
+            <label for="">Username</label>
+            <input type="text" >
+        </div>
+
+        <div class="mail">
+            <label for="">E-mail</label>
+            <input type="text" >
+        </div>
+
+        <div class="ps">
+            <label for="">Password</label>
+            <input type="password">
+        </div>
+
+        <div class="cps">
+            <label for="">Confirm Password</label>
+            <input type="password" >
+        </div>
+        <div class="submit">
+        <button type="button" class="btn" onclick="openPopup()">Submit</button>
+        <div class="popup" id="popup">
+            <h2>Thank You!</h2>
+            <p>Your details has been successfully submitted.</p>
+            <button type="button" onclick="closePopup()">OK</button>
+        </div>
+</div>
+            </form>
+            </div>
+    </div>
+
+    <script>
+
+let popup=document.getElementById("popup");
+
+function openPopup(){
+    popup.classList.add("open-popup");
+
+}
+
+function closePopup(){
+    popup.classList.remove("open-popup");
+    
+}
+    </script>
+</body>
+</html>

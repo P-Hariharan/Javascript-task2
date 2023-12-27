@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+
+.data{
+    color: aqua;
+}
+
+nav a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   text-decoration: none;
+   color: black ;
+   border: 2px solid aqua;
+   padding: 2px 4px;
+   margin: 0 4px;
+   border-radius: 4px;
+
+}
+
+.link a:hover{
+    background-color: aqua;
+    color: white;
+
+}
+
+
+nav{
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    background-color: aliceblue;
+}
+
+.store{
+    margin-top: 50px;
+}
+
+
+
+.all{
+    border: 1px solid grey;
+    width: 200px;
+    padding: 15px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.group :hover{
+    background-color: black;
+    color: white;
+}
+
+.group{
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    margin: 25px;
+}
+
+.all h4{
+    text-align: center;
+}
+
+.head{
+    justify-content: center;
+    padding-top: 10px;
+    color: fuchsia;
+    font-weight: 900;
+}
+
+
+
